@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="FreeImageNET">
+      <HintPath>Libraries\FreeImageNET.dll</HintPath>
+    </Reference>
+	<Content Include="Libraries\FreeImage.dll">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Original.jpg">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+  </ItemGroup>
+  <Target Name="CopyLibrary" AfterTargets="AfterBuild">
+	  <Copy SourceFiles="Libraries\FreeImage.dll" DestinationFolder="$(OutDir)" />
+  </Target>
+
+  
+
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeImageExif", "FreeImageExif.csproj", "{6FC0598A-8F40-4D48-B1FB-6F971BBEAA4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FC0598A-8F40-4D48-B1FB-6F971BBEAA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC0598A-8F40-4D48-B1FB-6F971BBEAA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC0598A-8F40-4D48-B1FB-6F971BBEAA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC0598A-8F40-4D48-B1FB-6F971BBEAA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {573CA6FA-B0C7-416D-A332-1EF3E940190A}
+	EndGlobalSection
+EndGlobal
